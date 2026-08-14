@@ -3,3 +3,4 @@ __pycache__/
 raw_html/
 *.db
 *.sqlite
+vkn_numbers.json
