@@ -19,10 +19,11 @@ with open("raw_html/concordat_details.json", "r", encoding="utf-8") as f:
 content_lookup = {ad["id"]: ad["content"] for ad in details}
 
 for item in labeled_list:
-    content_lookup[item["id"]] = re.sub(r"<[^>]+>", " ", content_lookup[item["id"]])
-    texts.append(item["title"] + " " + content_lookup[item["id"]])
+   for item in labeled_list:
+    content = content_lookup.get(item["id"], "")
+    content = re.sub(r"<[^>]+>", " ", content)
+    texts.append(item["title"] + " " + content)
     labels.append(item["label"])
-
 
 # print(labeled_list[0])
 # print(content_lookup[labeled_list[0]["id"]][:100])
@@ -35,7 +36,7 @@ x = vectorizer.fit_transform(texts)
 model = LogisticRegression()
 model.fit(x, labels)
 
-new_texts = ["Konkordato süresinin arttırılmasına dair karar"]
+new_texts = ["Konkordato mühletine ek süre ilave edilmesine dair karar"]
 new_X = vectorizer.transform(new_texts)
 prediction = model.predict(new_X)
 print(prediction)

@@ -19,3 +19,16 @@ id,title,label
 2193062,Konkordato davasının reddine ilişkin mahkeme kararı,diger
 2193061,Konkordato kesin mühlet kararının bildirimi ve duruşma gününün ilanen tebliği,kesin_muhlet
 2192950,Konkordato geçici mühlet kararının ilanen tebliği,gecici_muhlet
+synthetic_1,Konkordato geçici mühlet kararının duyurulması,gecici_muhlet
+synthetic_2,Konkordato geçici süre kararına ilişkin ilan,gecici_muhlet
+synthetic_3,Konkordato nihai mühlet kararının bildirimi,kesin_muhlet
+synthetic_4,Konkordato kesin süre kararı hakkında duyuru,kesin_muhlet
+synthetic_5,Konkordato mühletinin temdidi hakkında mahkeme kararı,muhlet_uzatma
+synthetic_6,Konkordato süresinin arttırılmasına ilişkin mahkeme kararının ilanen tebliği,muhlet_uzatma
+synthetic_7,Konkordato mühlet müddetinin genişletilmesine dair karar,muhlet_uzatma
+synthetic_8,Konkordato komiserliğinden alacaklılar toplantısına çağrı ilanı,toplanti_davet
+synthetic_9,Alacaklılar toplantısının yapılmasına dair duyuru,toplanti_davet
+synthetic_10,Alacaklıların alacaklarını beyan etmeye davet ilanı,alacak_bildirimi
+synthetic_11,Konkordato komiserliğinden alacak kaydettirmeye çağrı,alacak_bildirimi
+synthetic_12,Konkordato komiserinin değiştirilmesine ilişkin mahkeme kararı,diger
+synthetic_13,Konkordato talebinin reddi kararının ilanen tebliği,diger
